@@ -27,8 +27,9 @@ body{
         width: 120px;
         height: 120px;
         margin-bottom: 15px;
+        transition: tranform 0.3s ease;
 }
-.imagen :hover{
+.imagen:hover{
     transform: scale(1.1);
-
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.945);
 }
